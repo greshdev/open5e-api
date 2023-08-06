@@ -1,5 +1,36 @@
 [
     {
+        "name": "Catfolk",
+        "subtypes": [
+            {
+                "name": "Basteti Catfolk",
+                "asi-desc": "**_Ability Score Increase._** Your Charisma score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Charisma"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "traits": "**_Bastet's Blessing._** The gift of the goddess allows you to communicate in a limited manner with non-humanoid feline beasts. They can understand the meaning of your words, though you have no special ability to understand them in turn. You have advantage on all Charisma checks you make to influence them, but cats seldom do what they are told.\n\n**_Climber._** Your reflexes and claws allow you to scale vertical surfaces with a burst of speed. When you move at least 10 feet horizontally first, you can use the rest of your movement to traverse vertical surfaces.\n\n**_Stalker's Reflex._** You have advantage on Dexterity checks for initiative."
+            },
+            {
+                "name": "Nkosi Catfolk",
+                "asi-desc": "**_Ability Score Increase._** Your Strength score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Strength"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "traits": "**_Form of the Lion._** As an action, you can assume a leonine form. While in this form, your statistics remain the same, except you move as a quadruped instead of a biped, you can't speak or cast spells, and your speed increases by 10 feet. Additionally, you have advantage on Wisdom (Perception) checks that rely on smell, and you gain a bite attack that deals 1d6 + Strength modifier piercing damage. You can revert to your normal form as an action.\n\nWhen you transform, your equipment falls to the ground, merges into your new form or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for your lion form to wear a piece of equipment."
+            }
+        ]
+    },
+    {
         "name": "Gnoll",
         "desc": "## Gnoll Traits\nYour gnoll character has several special traits, the result of a wild nature and growing up in a harsh environment.",
         "asi-desc": "**_Ability Score Increase._** Your Strength score increases by 2.",
