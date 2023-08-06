@@ -1,0 +1,45 @@
+[
+    {
+        "name": "wizard",
+        "spell_list": [
+            "broken-wing"
+        ]
+    },
+    {
+        "name": "druid",
+        "spell_list": [
+            "bat-from-the-sky",
+            "body-twist",
+            "warning-whiskers"
+        ]
+    },
+    {
+        "name": "paladin",
+        "spell_list": [
+            "bat-from-the-sky"
+        ]
+    },
+    {
+        "name": "ranger",
+        "spell_list": [
+            "bat-from-the-sky",
+            "body-twist",
+            "pounce-strike",
+            "broken-wing",
+            "warning-whiskers"
+        ]
+    },
+    {
+        "name": "sorcerer",
+        "spell_list": [
+            "broken-wing"
+        ]
+    },
+    {
+        "name": "warlock",
+        "spell_list": [
+            "broken-wing",
+            "warning-whiskers"
+        ]
+    }
+]
