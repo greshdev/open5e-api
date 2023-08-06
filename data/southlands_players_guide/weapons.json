@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Rungu (throwing club)",
+        "category": "Simple Melee Weapons",
+        "cost": "2 gp",
+        "damage_dice": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "1 lb.",
+        "properties": [
+            "light",
+            "thrown (range 20/60)"
+        ]
+    },
+    {
+        "name": "Stabbing Knife",
+        "category": "Simple Melee Weapons",
+        "cost": "2 gp",
+        "damage_dice": "1d4",
+        "damage_type": "piercing",
+        "weight": "1 lb.",
+        "properties": [
+            "finesse",
+            "light"
+        ]
+    },
+    {
+        "name": "Narumbeki Throwing Knife",
+        "category": "Martial Melee Weapons",
+        "cost": "20 gp",
+        "damage_dice": "1d6",
+        "damage_type": "piercing",
+        "weight": "2 lb.",
+        "properties": [
+            "light",
+            "thrown (range 20/60)"
+        ]
+    },
+    {
+        "name": "Stabbing Axe",
+        "category": "Martial Melee Weapons",
+        "cost": "20 gp",
+        "damage_dice": "1d6",
+        "damage_type": "slashing",
+        "weight": "4 lb.",
+        "properties": [
+            "special",
+            "versatile (1d8)"
+        ],
+        "desc": "The long head of this axe is sharply pointed at the top curve, allowing you to use it as a short-hafted spear. You can choose to deal piercing damage instead of the listed slashing damage."
+    },
+    {
+        "name": "Double Blowgun",
+        "category": "Martial Ranged Weapons",
+        "cost": "40 gp",
+        "damage_dice": "1",
+        "damage_type": "piercing",
+        "weight": "2 lb.",
+        "properties": [
+            "ammunition (range 60/240)",
+            "loading"
+        ],
+        "desc": "The double blowgun is a ranged martial weapon comprised of two hollow tubes connected to one mouthpiece. When a proficient wielder uses an Attack action to blow into it and each tube is loaded with a needle, the wielder can attack two targets within range that are within 5 feet of each other."
+    },
+    {
+        "name": "War Boomerang",
+        "category": "Martial Ranged Weapons",
+        "cost": "2 gp",
+        "damage_dice": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "1 lb.",
+        "properties": [
+            "finesse",
+            "thrown (range 20/60)"
+        ],
+        "desc": "The double blowgun is a ranged martial weapon comprised of two hollow tubes connected to one mouthpiece. When a proficient wielder uses an Attack action to blow into it and each tube is loaded with a needle, the wielder can attack two targets within range that are within 5 feet of each other."
+    }
+]
