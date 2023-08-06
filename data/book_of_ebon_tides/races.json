@@ -59,7 +59,7 @@
         ],
         "age": "**_Age._** Shadow goblins reach adulthood at age 8 and can live up to 70 years.",
         "alignment": "**_Alignment._** Much like the shadow fey they coexist with, shadow goblins are not inherently evil, despite their reputations. Their natures are a constant balance between whimsy and being useful and productive. Shadow goblins are more likely to tend toward neutral good or neutral alignments.",
-        "size": "**_Size._** Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.",
+        "size": "**_Size._** Shadow goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.",
         "size-raw": "Small",
         "speed": {
             "walk": 30
