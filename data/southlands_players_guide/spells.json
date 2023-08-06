@@ -13,7 +13,11 @@
         "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target an additional creature for each 2 slot levels above 2nd.",
         "source": "KP:SPG",
         "concentration": "no",
-        "ritual": "no"
+        "ritual": "no",
+        "page": "spg 73",
+        "saving_throw_ability": [
+            "strength"
+        ]
     },
     {
         "name": "Body Twist",
@@ -29,7 +33,8 @@
         "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can instead target a creature within 30 feet of you, which can use its reaction to attempt to escape.",
         "source": "KP:SPG",
         "concentration": "no",
-        "ritual": "no"
+        "ritual": "no",
+        "page": "spg 73"
     },
     {
         "name": "Broken Wing",
@@ -46,7 +51,11 @@
         "higher_level": "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st, and you reduce the target's speed by an additional 5 feet for each slot level above 1st (to a maximum of 30 feet).",
         "source": "KP:SPG",
         "concentration": "no",
-        "ritual": "no"
+        "ritual": "no",
+        "page": "spg 74",
+        "saving_throw_ability": [
+            "constitution"
+        ]
     },
     {
         "name": "Pounce Strike",
@@ -62,7 +71,9 @@
         "higher_level": " When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 per slot level above 1st.",
         "source": "KP:SPG",
         "concentration": "no",
-        "ritual": "no"
+        "ritual": "no",
+        "page": "spg 74",
+        "rolls-attack": true
     },
     {
         "name": "Warning Whiskers",
@@ -78,6 +89,7 @@
         "desc": "Thin, invisible fibers stretch from your cheeks (or your shoulders, sides, or thighs, as you prefer). These long whiskers reach up to 10 feet. For the spell's duration, you gain a +5 bonus to your passive Wisdom (Perception) score. Additionally, you know the location of invisible creatures within range of the whiskers. This negates advantage they have on their attack rolls against you, but your attack rolls still have disadvantage. You can target invisible creatures within 10 feet with spells that require you to be able to see the target.",
         "source": "KP:SPG",
         "concentration": "yes",
-        "ritual": "no"
+        "ritual": "no",
+        "page": "spg 74"
     }
 ]
