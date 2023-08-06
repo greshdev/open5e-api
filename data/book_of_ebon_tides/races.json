@@ -168,5 +168,196 @@
         "vision": "**_Darkvision._**You can see in dim light within 60 feet as though it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
         "languages": "**_Languages._** You can speak, read, and write Elvish and Umbral.",
         "traits": "**_Fey Ancestry._** You have advantage on saving throws against being charmed, and magic can't put you to sleep.\n\n**_Nimble._** You have proficiency in the Acrobatics and Sleight of Hand skills.\n\n**_Startling Speed._** Your movements are so swift that you are almost invisible when in motion. If you move at least 10 feet on your turn, attack rolls against you have disadvantage until the start of your next turn. This feature does not function if you are incapacitated or restrained. You can use this ability a number of rounds per day equal to your level."
+    },
+    {
+        "name": "Darakhul",
+        "subtypes": [
+            {
+                "name": "Bearfolk Heritage",
+                "desc": "Your darakhul character was a bearfolk before transforming into a darakhul. While your allegiance has changed, your mission to create order amid the darkness has not. The strength and tenacity of the darakhul are comfortingly familiar.",
+                "asi-desc": "**_Ability Score Increase._** Your Strength score increases by 2.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Strength"
+                        ],
+                        "value": 2
+                    }
+                ],
+                "size": "Bearfolk can reach a height of over 7 feet, possessing thick, muscular builds. Your size is Medium.",
+                "size-raw": "Medium",
+                "speed-desc": "***Speed.*** Your base walking speed is 30 feet.",
+                "speed": {
+                    "walk": 30
+                },
+                "traits": "**_Jaws of Death._** Your powerful jaws serve you well as a darakhul. When you use your bite attack to make an unarmed strike, you deal piercing damage equal to 1d6 + your Strength modifier.\n\n**_Undead Fortitude._** Your tenacity in life has followed you into undeath. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+                "languages": "You can speak, read, and write Common (if you hail from mortal lands) or Umbral (if native to the Shadow Realm)."
+            },
+            {
+                "name": "Shadow Goblin Heritage",
+                "desc": "Your darakhul character was a shadow goblin before transforming into a darakhul.",
+                "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Dexterity"
+                        ],
+                        "value": 2
+                    }
+                ],
+                "size": "Shadow goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.",
+                "size-raw": "Small",
+                "speed-desc": "***Speed.*** Your base walking speed is 30 feet.",
+                "speed": {
+                    "walk": 30
+                },
+                "traits": "**_Dark Deed._** Your fascination with humor has not gone away, but you've had to adopt more macabre tactics. As an action, you can perform a combination of rude gestures and sounds to attempt to scare one creature you can see within 30 feet. If the target can see and hear you, it must succeed on a Wisdom saving throw or become frightened of you until the end of its turn. The DC for this saving throw is equal to 10 plus your Charisma modifier.",
+                "languages": "You can speak, read, and write Goblin and Umbral."
+            }
+        ]
+    },
+    {
+        "name": "Elf",
+        "subtypes": [
+            {
+                "name": "Shadow Fey",
+                "desc": "Shadow fey are a subrace of elf. They enjoy the base elven racial traits, along with the following subrace traits.",
+                "asi-desc": "**_Ability Score Increase._** Your Charisma score increases by 2.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Charisma"
+                        ],
+                        "value": 2
+                    }
+                ],
+                "alignment": "Although they have a malevolent reputation, the shadow fey are not inherently evil. They tend toward chaotic neutral, though every variation exists.",
+                "traits": "**_Shadow Fey Weapon Training._** You have proficiency with the rapier, shortsword, shortbow, and longbow.\n\n**_Path of Shadows._** When in darkness, dim light, or a shadow large enough to cover your body, you can cast the misty step spell. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1), and you regain all expended uses when you finish a long rest. Charisma is your spellcasting ability for this spell.\n\n**_Sunlight Sensitivity._** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in bright sunlight.\n\n**_Traveler in Darkness._** You have advantage on any Intelligence (Arcana) check to learn about a particular shadow road and how it functions.",
+                "languages": "You can speak, read, and write Elvish and Umbral."
+            },
+            {
+                "name": "Lunar Elf",
+                "desc": "Lunar elves are a subrace of elf. They enjoy the base elven racial traits along with the following subrace traits.",
+                "asi-desc": "**_Ability Score Increase._** Your Wisdom score increases by 2.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Wisdom"
+                        ],
+                        "value": 2
+                    }
+                ],
+                "alignment": "Although they have a malevolent reputation, the shadow fey are not inherently evil. They tend toward chaotic neutral, though every variation exists.",
+                "traits": "**_Luminous._** You emit bright light in a 15-foot radius and dim light for an additional 15 feet. You can choose to suppress this effect to only dim light in a 15-foot radius, to suppress it completely, or to activate it at any time without expending an action. (This effect has a level equal to your proficiency bonus, and if any of its area overlaps with an area of darkness created by a spell of the same level or lower, the spell that created the darkness is dispelled.)\n\n**_Moon Child._** When in darkness, dim light, or a shadow large enough to cover your body, you can cast the _moonbeam_ spell. You can use this ability a number of times per day equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest. Wisdom is your spellcasting ability for this spell.\n\n**_Shadow Fey Weapon Training._** You have proficiency with the rapier, shortsword, shortbow, and longbow.\n\n**_Sunlight Sensitivity._** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in sunlight.",
+                "languages": "You can speak, read, and write Elvish and Umbral."
+            },
+            {
+                "name": "Sable Elf",
+                "desc": "You are an elf with a deeper affinity for elven magic that sets you apart from most other elves.",
+                "asi-desc": "**_Ability Score Increase._** Your Intelligence score increases by 2, and your Dexterity decreases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Intelligence"
+                        ],
+                        "value": 2
+                    },
+                    {
+                        "attributes": [
+                            "Dexterity"
+                        ],
+                        "value": -1
+                    }
+                ],
+                "alignment": "Due to their exiled status, sable elves have lost attachment to many of the values traditionally held by elves. Centuries of solitude have pushed the remaining sable elves in different directions, and a variety of alignments are found within their ranks.",
+                "traits": "**_Blood Affinity._** Choose a school of magic you have a natural affinity for. You learn a cantrip of your choice from that school. When you reach 3rd level, choose a 1st-level spell from the same school, and when you reach 5th level, choose a 3rd-level spell from the same school. You learn these spells and can cast them at their lowest level. Once you cast one of these spells, you must finish a long rest before you can cast the spell again using this feature. Your spellcasting ability for these spells is Intelligence.",
+                "languages": "You can speak, read, and write Elvish and Umbral."
+            }
+        ]
+    },
+    {
+        "name": "Ratatosk",
+        "desc": "## Ratatosk Traits\nYour ratatosk heritage is apparent in a variety of traits you share with other ratatosks.",
+        "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2, but your Strength score decreases by 2.",
+        "asi": [
+            {
+                "attributes": [
+                    "Dexterity"
+                ],
+                "value": 2
+            },
+            {
+                "attributes": [
+                    "Strength"
+                ],
+                "value": -2
+            }
+        ],
+        "age": "**_Age._** Ratatosk reach adulthood at age 10 and, due to their celestial nature, live up to 180 years.",
+        "alignment": "**_Alignment._** Ever curious and delighting in unpredictability, ekorre ratatosks gravitate toward chaotic alignments as they view laws as vague suggestions at best. The tradvakt tend to be slightly more focused and lawful in their thinking. Both groups tend toward good, placing value on doing the right thing, though some individuals lean more toward their darker impulses.",
+        "size": "**_Size._** As with humans from the Material Plane, umbral humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+        "size-raw": "Medium",
+        "speed": {
+            "walk": 25,
+            "climb": 10
+        },
+        "speed-desc": "**_Speed._** Your base walking speed is 25 feet, and you have a climb speed of 10 feet.",
+        "languages": "**_Languages._** You can understand, read, and write Celestial and Common, but you speak via Telepathy.",
+        "vision": "**_Darkvision._** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "traits": "**_Grounded Celestial._** You are descended from celestials, but you are strongly attuned to the mortal world. Though you are a humanoid, you are still susceptible to effects that target celestials.\n\n**_Sharp Tusks._** Your sharp tusks are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal 1 piercing damage plus 1d4 psychic damage.\n\n**_Telepathic._** You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.",
+        "subtypes": [
+            {
+                "name": "Ekorre (Clever Tusk)",
+                "desc": "The ekorre are the image most have in mind when discussing ratatosks. Superficially similar to squirrels, they have sleek fur, often in shades of red and brown, and tiny tusks. These celestials dwell upon Yggdrasil and all its branches. Clever, egotistical, and endlessly curious, the ekorre carry messages across the planes, sharing information from individual to individual in a never-ending gossip network.",
+                "asi-desc": "**_Ability Score Increase._** Either your Intelligence or Charisma score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Intelligence",
+                            "Charisma"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "size": "**_Size._** Ekorre ratatosks are around 1-1/2 feet tall and weigh between 20 and 50 pounds. Your size is Tiny.",
+                "size-raw": "Tiny",
+                "traits": "**_Blessing of Yggdrasil_**. You are attuned to the World Tree and can tap into its power. You know the _message_ and _vicious mockery_ cantrips. When you reach 5th level, you can cast the _mirror image_ spell with this trait. Once you cast a non-cantrip spell with this trait, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.\n\n**_Diminutive Weapons._** You can wield weapons with the light or finesse properties normally. You have disadvantage on attack rolls with other weapons, unable to use them effectively due to your Tiny size, and they are treated as two-handed weapons. You can't use heavy weapons at all. A weapon specifically designed for ratatosks (or for other Tiny creatures at the GM's discretion) are treated normally."
+            },
+            {
+                "name": "Tradvakt (Tree Protector)",
+                "desc": "The tradvakt, also called ratatosk warlords, believe themselves to be the guardians and protectors of Yggdrasil and the branches of the World Tree. Larger than their ekorre cousins, the tradvakt train from a young age to master weapons and battle tactics. They act to maintain order in their communities and stamp out dangers that threaten those settlements.\nTradvakt who become adventurers do so for a wide variety of reasons. Some seek a more proactive way to combat evil before it can threaten the World Tree. Others simply wish to prove their martial skills. No matter the reason, tradvakt will rise to any challenge and be victorious.",
+                "asi-desc": "**_Ability Score Increase._** Your Constitution score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Constitution"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "size": "**_Size._** A typical tradvakt stands between 2 and 3 feet tall, weighing from 60 to 100 pounds. Some massive ratatosk warlords reach a towering 3-1/2 feet. Your size is Small.",
+                "size-raw": "Small",
+                "traits": "**_War Chatter._** Your constant chittering distracts your opponents. As a bonus action, a non-ratatosk creature within 30 feet that can hear you must succeed on a Charisma saving throw or have disadvantage on its attack rolls until the start of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution bonus. Once you use this trait, you can't use it again until you finish a short or long rest."
+            }
+        ]
+    },
+    {
+        "name": "Gnome",
+        "subtypes": [
+            {
+                "name": "Wyrd Gnome",
+                "desc": "You are a gnome with a natural prescience that sets you apart from most other gnomes.",
+                "asi-desc": "**_Ability Score Increase._** Your Wisdom score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Wisdom"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "traits": "**_Natural Diviner._** You have an innate knack for understanding the world and can catch glimpses of the mysteries of the universe. You know the _guidance_ cantrip. When you reach 3rd level, you can cast the _identify_ spell with this trait, requiring no material components, and starting at 5th level, you can cast the _augury_ spell with it. Once you cast a non-cantrip spell with this trait, you can't do so again until you finish a long rest. Wisdom is your spellcasting ability for these spells.\n\n**_Prescience._** When you finish a long rest, roll a d20 and record the number rolled. Before your next long rest, you can replace one attack roll, saving throw, or ability check made by you or a creature that you can see with this prescience roll. You must choose to do so before the roll.\nIf 20 wyrd gnomes are present within a half mile of you when you make the prescience roll, you can add 1 to the result. Every time the number of nearby wyrd gnomes is doubled, you gain an additional bonus of 1 to the roll (+2 for 40 gnomes, +3 for 80, and so on) to a maximum bonus of +5."
+            }
+        ]
     }
 ]
