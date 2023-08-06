@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Bearfolk",
+        "desc": "## Beafolk Traits\nYour bearfolk character has certain characteristics in common with all other bearfolk.",
+        "asi-desc": "**_Ability Score Increase._** Your Strength score increases by 2.",
+        "asi": [
+            {
+                "attributes": [
+                    "Constitution"
+                ],
+                "value": 2
+            }
+        ],
+        "age": "**_Age._** Bearfolk come of age in their late teens and live around 80 years.",
+        "alignment": "**_Alignment._** Bearfolk are predominantly good, mistrusting and shunning evil. While they hold rich traditions, they value their freedom and tend toward chaotic alignments.",
+        "size": "**_Size._** Bearfolk can reach a height of over 7 feet, with thick, muscular builds. Your size is Medium.",
+        "size-raw": "Medium",
+        "speed": {
+            "walk": 30
+        },
+        "speed-desc": "**_Speed._** Your base walking speed is 30 feet.",
+        "languages": "**_Languages._** You can speak, read, and write either Common (if you hail from the mortal lands) or Umbral (if native to the Shadow Realm).",
+        "vision": "**_Darkvision._** Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "traits": "\n\n**_Bite._** Your powerful jaws are natural weapons, which you can use to make unarmed strikes. If it hits, you deal 1d6 + your Strength modifier piercing damage.\n\n**_Natural Armor._** Your hide is thick and tough, granting you a natural AC of 13 + your Dexterity modifier.\n\n**_Dexterity modifier._** Powerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.\n\n**_Ursine Talent._** You have proficiency inthe Athletics and Perception skills.",
+        "subtypes": [
+            {
+                "name": "Shadowborn Bearfolk",
+                "desc": "As a shadowborn bearfolk, you are one of the cubs born in the Shadow Realm with a proclivity for the darkness. Shadowborn are marked by gray coats from infancy and sometimes possess strangely arcane black markings. Shadowborn not only seem to resist the darkness more easily than other bearfolk but are also often drawn to its presence.",
+                "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 1",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Dexterity"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "traits": "**_Cloak of Night._** While in dim light or darkness, you have advantage on Dexterity (Stealth) checks and can take the Hide action as a bonus action.\n\n**_Darkvision._** You can see in dim light within 60 feet as though it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+            }
+        ]
+    },
+    {
+        "name": "Shadow Goblin",
+        "desc": "## Shadow Goblin Traits\nYou are a shadow goblin, forever changed by the Shadow Realm, setting you apart from other goblins.",
+        "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2, and your Charisma score increases by 1.",
+        "asi": [
+            {
+                "attributes": [
+                    "Dexterity"
+                ],
+                "value": 2
+            },
+            {
+                "attributes": [
+                    "Charisma"
+                ],
+                "value": 1
+            }
+        ],
+        "age": "**_Age._** Shadow goblins reach adulthood at age 8 and can live up to 70 years.",
+        "alignment": "**_Alignment._** Much like the shadow fey they coexist with, shadow goblins are not inherently evil, despite their reputations. Their natures are a constant balance between whimsy and being useful and productive. Shadow goblins are more likely to tend toward neutral good or neutral alignments.",
+        "size": "**_Size._** Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.",
+        "size-raw": "Small",
+        "speed": {
+            "walk": 30
+        },
+        "speed-desc": "**_Speed._** Your base walking speed is 30 feet.",
+        "languages": "**_Languages._** You can speak, read, and write Goblin and Umbral.",
+        "vision": "**_Darkvision._** You can see in dim light within 60 feet as though it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "traits": "**_Quick Wit._** You have proficiency in the Deception and Insight skills.\n\n**_Shadow Camouflage._** You have advantage on Dexterity (Stealth) checks made to hide in dim light or darkness.\n\n**_Stink Eye._** As an action, you can perform a combination of rude gestures and sounds to distract one creature you can see within 30 feet. If the target can hear and see you, it must make a Charisma saving throw (DC 8 + your Charisma ability modifier + your proficiency bonus). On a failure, it has disadvantage on the next ability check, attack roll, or saving throw it makes before the start of your next turn.\n\n**_Sunlight Sensitivity._** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.\n\n**_Unseelie Blessing._** You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+    },
+    {
+        "name": "Umbral Human",
+        "desc": "## Umbral Human Traits\nYour umbral human character has certain characteristics in common with all umbral humans.",
+        "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2.",
+        "asi": [
+            {
+                "attributes": [
+                    "Strength",
+                    "Dexterity",
+                    "Constitution",
+                    "Wisdom",
+                    "Intelligence",
+                    "Charisma"
+                ],
+                "value": 2
+            },
+            {
+                "attributes": [
+                    "Strength",
+                    "Dexterity",
+                    "Constitution",
+                    "Wisdom",
+                    "Intelligence",
+                    "Charisma"
+                ],
+                "value": 1
+            }
+        ],
+        "age": "**_Age._** Your natural aging process slows and becomes similar to that of an elf or shadow fey.",
+        "alignment": "**_Alignment._** Umbral humans have often walked a troubling path to become what they are. This tends to push umbral humans toward neutral or chaotic alignments, but all variations exist.",
+        "size": "**_Size._** As with humans from the Material Plane, umbral humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+        "size-raw": "Medium",
+        "speed": {
+            "walk": 30
+        },
+        "speed-desc": "**_Speed._** Your walking speed is 30 feet.",
+        "languages": "**_Languages._** You can speak, read, and write Common and Umbral.",
+        "vision": "**_Darkvision._** You can see in dim light within 60 feet as though it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "traits": "**_Dark Infusion._** You have resistance to cold damage.\n\n**_Fade Away._** While standing perfectly still, you can use an action to become invisible. You become visible again if you move or take an action. You can use this feature a number of times per day equal to your proficiency bonus.",
+        "subtypes": [
+            {
+                "name": "Changeling Umbral Human",
+                "desc": "You are a changeling, a human adapted to the shadows, thriving in its embrace.",
+                "asi-desc": "**_Ability Score Increase._** Your Charisma score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Charisma"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "traits": "**_Cover Story._** You gain proficiency in the Deception or Persuasion skill.\n\n**_Shadow Glamour._** You can use an action to cast the disguise self spell at will."
+            },
+            {
+                "name": "Gifted Umbral Folk",
+                "desc": "You are of the gifted, granted potent fey abilities.",
+                "asi-desc": "**_Ability Score Increase._** Your Wisdom score increases by 1.",
+                "asi": [
+                    {
+                        "attributes": [
+                            "Wisdom"
+                        ],
+                        "value": 1
+                    }
+                ],
+                "traits": "**_Cursed Infusion._** You have resistance to necrotic damage.\n\n**_Shadow Gift._** You struck a bargain with a shadow fey to receive a gift, but it came at a terrible price.\nChoose one of the options below to determine the benefit and penalty you possess (or discuss other options with your GM):\n- You become proficient in one skill of your choice and always roll ability checks made with that skill at advantage. Choose a second skill, and always roll ability checks made with that skill at disadvantage.\n- You no longer need to eat or breathe to survive and require only 4 hours for a long rest. Gain one level of exhaustion. This level of exhaustion cannot be removed by any means magical or non-magical.\n- Cut your current base movement speed in half. Gain a fly, swim, or climb speed equal to your newly halved base movement speed.\n- Increase one of your ability scores by 6 (up to 20). Reduce two different ability scores by 2.\n- Each day at dawn, you gain temporary hit points equal to your Constitution score. You are no longer able to spend hit dice to heal during short rests."
+            }
+        ]
+    },
+    {
+        "name": "Quickstep",
+        "desc": "## Quickstep Traits\nYour quickstep heritage is apparent in a variety of traits you share with other quicksteps.",
+        "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2, and your Charisma score increases by 1..",
+        "asi": [
+            {
+                "attributes": [
+                    "Dexterity"
+                ],
+                "value": 2
+            },
+            {
+                "attributes": [
+                    "Charisma"
+                ],
+                "value": 1
+            }
+        ],
+        "age": "**_Age._** Quicksteps have remarkably short lifespans compared to other fey. Quicksteps mature around 10 years and live up to 50 years.",
+        "alignment": "**_Alignment._** Due to their association with the shadow fey and their legendary love of competitions, quicksteps have dark reputations, but they are rarely of evil alignment. Many quicksteps have a mischievous, even impetuous, streak that pushes them toward chaotic or neutral alignments.",
+        "size": "**_Size._** Quicksteps are between 3 and 4 feet tall and weigh between 25 and 40 pounds. Your size is Small.",
+        "size-raw": "Small",
+        "speed": {
+            "walk": 50
+        },
+        "speed-desc": "**_Speed._** Your base walking speed is 50 feet.",
+        "vision": "**_Darkvision._**You can see in dim light within 60 feet as though it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "languages": "**_Languages._** You can speak, read, and write Elvish and Umbral.",
+        "traits": "**_Fey Ancestry._** You have advantage on saving throws against being charmed, and magic can't put you to sleep.\n\n**_Nimble._** You have proficiency in the Acrobatics and Sleight of Hand skills.\n\n**_Startling Speed._** Your movements are so swift that you are almost invisible when in motion. If you move at least 10 feet on your turn, attack rolls against you have disadvantage until the start of your next turn. This feature does not function if you are incapacitated or restrained. You can use this ability a number of rounds per day equal to your level."
+    }
+]
